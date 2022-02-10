@@ -1,0 +1,32 @@
+
+.features-container{
+    justify-content: space-evenly;
+    background-color:var(--lighter-white-color);
+    border-radius:1rem;
+}
+.heading,.categories-heading{
+    text-align: center;
+}
+.hero-container img{
+    height:100%;
+    position:relative;
+}
+.hero-image-text-overlay{
+    position: absolute;
+    top:2rem;
+    transform: translate(10%,50%); 
+}
+.button-shop-now{
+    display: block;
+}
+.brand{
+    width:200px;
+    height:100px;
+}
+.brand img{
+    width:150px;
+    height:100px;
+}
+
+
+
