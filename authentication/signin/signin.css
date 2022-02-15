@@ -1,0 +1,7 @@
+ input:focus + label, input:not(:placeholder-shown) + label {
+    transform: translateY(0) translateX(0);
+}
+  .forget-password a {
+    text-decoration: underline;
+    color: var(--primary-color);
+  }
