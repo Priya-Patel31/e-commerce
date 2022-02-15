@@ -11,8 +11,9 @@
     />
     <link rel="stylesheet" href="/common.css" />
     <link rel="stylesheet" href="/index.css" />
-    <link rel="stylesheet" href="/authentication/authentication_common.css" />
+    
     <link rel="stylesheet" href="signin.css" />
+    <link rel="stylesheet" href="/authentication/authentication_common.css" />
     <script
       src="https://kit.fontawesome.com/482acc5102.js"
       crossorigin="anonymous"
@@ -44,14 +45,16 @@
                 <li class="list-style-none text-xs">
                   <div class="email-field-container">
                   <label class="text-xs" for="email">Email address</label>
+               
                   <input
                     id="email"
-                    class="input-field form-control"
+                    class="input-field form-control text-xs"
                     type="email"
                     placeholder="priya@gmail.com"
                     required
                   />
                   <i class="fas fa-envelope email-icon text-xs"></i>
+              
                   </div>
                 </li>
                 <li class="list-style-none">
@@ -59,7 +62,7 @@
                   <label class="text-xs" for="password">Password</label>
                   <input
                     id="password"
-                    class="input-field form-control"
+                    class="input-field form-control text-xs"
                     type="password"
                     placeholder="•••••••••"
                     required
@@ -68,13 +71,17 @@
                 </div>
                 </li>
                 <li class="list-style-none">
-                  <div class="flex-row">
-                    <input class="my-2" type="checkbox" />
-                    <div class="flex-row forget-password">
-                      <label class="text-xs ml-1" for="terms">
-                        Remember me</label
-                      >
-                      <a href="/authentication/forgot_password/forgot_password.html">Forget Password</a>
+                  <div class="flex-row align-center justify-between mt-1">
+                      <div class="flex-row align-center">
+                        <input class="my-2" type="checkbox" id="terms"  />
+                        <label class="text-xs ml-1" for="terms">
+                            Remember me</label
+                          >
+                      </div>
+                    
+                    <div class="flex-row forget-password align-center" >
+                      
+                      <a class="text-xs" href="/authentication/forgot_password/forgot_password.html">Forget Password</a>
                     </div>
                   </div>
                 </li>
@@ -83,7 +90,7 @@
                 Login
               </button>
               <div>
-                <a href="/authentication/signup/signup.html"
+                <a class="text-xs" href="/authentication/signup/signup.html"
                   >Create New Account<span
                     ><i class="fas fa-arrow-right ml-2"></i></span
                 ></a>

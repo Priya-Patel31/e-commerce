@@ -1,29 +1,6 @@
-.form-components-container {
-    width: 50%;
-  }
-  .password-field-container,
-.email-field-container {
-  position: relative;
+ input:focus + label, input:not(:placeholder-shown) + label {
+    transform: translateY(0) translateX(0);
 }
-  .password-eye-icon {
-    position: absolute;
-    top: 2.1rem;
-    right: 0.5rem;
-  }
-  .email-icon {
-    position: absolute;
-    top: 2.2rem;
-    right: 0.5rem;
-  }
-  .forget-password {
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-  }
-  label {
-    transform: initial;
-  }
-  
   .forget-password a {
     text-decoration: underline;
     color: var(--primary-color);
