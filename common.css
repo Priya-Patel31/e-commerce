@@ -97,6 +97,9 @@
   .gap-1{
     gap:1rem;
   }
+  .inline-block{
+    display: inline-block;
+  }
   .w-100{
     width:100%;
   }

@@ -1,5 +1,5 @@
 .width-800 {
-  max-width: 950px;
+  max-width: 59.3rem;
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -17,6 +17,9 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
+}
+.coupon-btn{
+    margin-right: 0;
 }
 .card-horizontal-product-desc {
   margin: 0.4rem 0;
