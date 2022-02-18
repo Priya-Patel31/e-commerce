@@ -5,20 +5,18 @@
     --light-color:white;
     --lighter-white-color:#f0f8ff;
     --dark-color:rgba(0, 0, 0, 0.87);
+    --shadow-color:rgb(0 0 0 / 5%);
   }
   *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    
-  
   }
   body{
     overflow-x: hidden;
     max-width: 2000px;
-    margin: auto;
-     
+    margin: auto; 
   }
   .list-style-none{
     list-style: none;
@@ -43,7 +41,6 @@
   .font-md{
     font-size: 0.8rem;
   }
-  
   .flex-row{
     display: flex;
   }
@@ -96,6 +93,9 @@
   }
   .gap-1{
     gap:1rem;
+  }
+  .inline-block{
+    display: inline-block;
   }
   .w-100{
     width:100%;
