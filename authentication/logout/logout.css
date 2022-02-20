@@ -1,0 +1,17 @@
+.logout-wrapper{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.logout-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:var(--primary-color);
+}
+.primary-button-pink:hover{
+    background-color:var(--light-color);
+    color:var(--dark-pink);
+    border:1px solid var(--dark-pink);
+}
