@@ -7,15 +7,12 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="/common.css" />
-    <link rel="stylesheet" href="wishlist.css" />
+
     <link
       rel="stylesheet"
       href="https://clean-u-i.netlify.app/component/component.css"
     />
-    <script
-      src="https://kit.fontawesome.com/482acc5102.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="wishlist.css" />
   </head>
   <body>
     <div class="wishlist-container">
@@ -53,30 +50,33 @@
         <div class="right-navbar">
           <ul class="nav-icons list-style-none">
             <li>
-              <button href="/" class="flex-col nav-icon-link">
+              <a href="/authentication/logout/logout.html" class="flex-col nav-icon-link">
                 <span class="badge-icon">
                   <i class="fas fa-user icon-size"></i>
                 </span>
-                <span class="nav-list-link">Login</span>
-              </button>
+                <span class="nav-list-link">Logout</span>
+              </a>
             </li>
             <li>
-              <button href="/" class="flex-col nav-icon-link wishlist-button">
+              <a
+                href="/wishlist/wishlist.html"
+                class="flex-col nav-icon-link wishlist-button"
+              >
                 <span class="badge-icon">
                   <i class="fas fa-heart"></i>
                   <span class="badge-count">10</span>
                 </span>
                 <span class="nav-list-link">Wishlist</span>
-              </button>
+              </a>
             </li>
             <li>
-              <button href="/" class="flex-col nav-icon-link">
+              <a href="/carts/carts.html" class="flex-col nav-icon-link">
                 <span class="badge-icon">
                   <i class="fas fa-shopping-cart"></i>
                   <span class="badge-count">10</span>
                 </span>
                 <span class="nav-list-link">Cart</span>
-              </button>
+              </a>
             </li>
           </ul>
         </div>
@@ -86,30 +86,31 @@
 
       <main class="wislist-cards-container">
         <div class="space-1rem"></div>
-        <h2 class="wishlist-heading mt-2">MY WISHLIST</h2>
+        <h2 class="wishlist-heading mt-2 text-sm">MY WISHLIST</h2>
         <div class="space-3rem"></div>
 
-        <div class="vertical-card-outer-container mx-2">
+        <div class="vertical-card-outer-container">
           <div class="vertical-card-container">
             <div class="vertical-image-container">
               <img
                 class="vertical-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/600x600_54a11123-5968-49f9-a72b-169119620e75.jpg?v=1615192845"
-                alt="vertical-image"/>
-              <span class="badge bg-primary badge-trending">New</span>
+                alt="vertical-image"
+              />
+              <span class="badge bg-primary badge-trending text-xs">New</span>
             </div>
             <div class="vertical-card-text-container">
               <div class="vertical-card-content">
                 <div class="flex-row vertical-card-heading mb-1">
-                  <h3>Climbing harness</h3>
+                  <h3 class="text-xs">Climbing harness</h3>
                   <i class="fas fa-heart text-sm text-grey"></i>
                 </div>
                 <span class="discount-price font-semibold">Rs.3000</span>
                 <span class="original-price">Rs.4000</span>
               </div>
             </div>
-            <button class="button primary-button-pink mt-1">
-              <i class="fas fa-shopping-cart icon-white"></i>
+            <button class="button primary-button-pink mt-1 w-100">
+              <i class="fas fa-shopping-cart icon-white mr-1"></i>
               Add to cart
             </button>
           </div>
@@ -119,123 +120,131 @@
               <img
                 class="vertical-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/600x600_54a11123-5968-49f9-a72b-169119620e75.jpg?v=1615192845"
-                alt="vertical-image"/>
-              <span class="badge bg-primary badge-trending">New</span>
+                alt="vertical-image"
+              />
+              <span class="badge bg-primary badge-trending text-xs">New</span>
             </div>
             <div class="vertical-card-text-container">
               <div class="vertical-card-content">
                 <div class="flex-row vertical-card-heading mb-1">
-                  <h3>Climbing harness</h3>
+                  <h3 class="text-xs">Climbing harness</h3>
                   <i class="fas fa-heart text-sm text-grey"></i>
                 </div>
                 <span class="discount-price font-semibold">Rs.3000</span>
                 <span class="original-price">Rs.4000</span>
               </div>
             </div>
-            <button class="button primary-button-pink mt-1">
-              <i class="fas fa-shopping-cart icon-white"></i>
+            <button class="button primary-button-pink mt-1 w-100">
+              <i class="fas fa-shopping-cart icon-white mr-1"></i>
               Add to cart
             </button>
           </div>
-       
+
           <div class="vertical-card-container">
             <div class="vertical-image-container">
               <img
                 class="vertical-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/600x600_54a11123-5968-49f9-a72b-169119620e75.jpg?v=1615192845"
-                alt="vertical-image"/>
-              <span class="badge bg-primary badge-trending">New</span>
+                alt="vertical-image"
+              />
+              <span class="badge bg-primary badge-trending text-xs">New</span>
             </div>
             <div class="vertical-card-text-container">
               <div class="vertical-card-content">
                 <div class="flex-row vertical-card-heading mb-1">
-                  <h3>Climbing harness</h3>
+                  <h3 class="text-xs">Climbing harness</h3>
                   <i class="fas fa-heart text-sm text-grey"></i>
                 </div>
                 <span class="discount-price font-semibold">Rs.3000</span>
                 <span class="original-price">Rs.4000</span>
               </div>
             </div>
-            <button class="button primary-button-pink mt-1">
-              <i class="fas fa-shopping-cart icon-white"></i>
+            <button class="button primary-button-pink mt-1 w-100">
+              <i class="fas fa-shopping-cart icon-white mr-1"></i>
               Add to cart
             </button>
           </div>
-       
+
           <div class="vertical-card-container">
             <div class="vertical-image-container">
               <img
                 class="vertical-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/600x600_54a11123-5968-49f9-a72b-169119620e75.jpg?v=1615192845"
-                alt="vertical-image"/>
-              <span class="badge bg-primary badge-trending">New</span>
+                alt="vertical-image"
+              />
+              <span class="badge bg-primary badge-trending text-xs">New</span>
             </div>
             <div class="vertical-card-text-container">
               <div class="vertical-card-content">
                 <div class="flex-row vertical-card-heading mb-1">
-                  <h3>Climbing harness</h3>
+                  <h3 class="text-xs">Climbing harness</h3>
                   <i class="fas fa-heart text-sm text-grey"></i>
                 </div>
                 <span class="discount-price font-semibold">Rs.3000</span>
                 <span class="original-price">Rs.4000</span>
               </div>
             </div>
-            <button class="button primary-button-pink mt-1">
-              <i class="fas fa-shopping-cart icon-white"></i>
+            <button class="button primary-button-pink mt-1 w-100">
+              <i class="fas fa-shopping-cart icon-white mr-1"></i>
               Add to cart
             </button>
           </div>
-       
+
           <div class="vertical-card-container">
             <div class="vertical-image-container">
               <img
                 class="vertical-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/600x600_54a11123-5968-49f9-a72b-169119620e75.jpg?v=1615192845"
-                alt="vertical-image"/>
-              <span class="badge bg-primary badge-trending">New</span>
+                alt="vertical-image"
+              />
+              <span class="badge bg-primary badge-trending text-xs">New</span>
             </div>
             <div class="vertical-card-text-container">
               <div class="vertical-card-content">
                 <div class="flex-row vertical-card-heading mb-1">
-                  <h3>Climbing harness</h3>
+                  <h3 class="text-xs">Climbing harness</h3>
                   <i class="fas fa-heart text-sm text-grey"></i>
                 </div>
                 <span class="discount-price font-semibold">Rs.3000</span>
                 <span class="original-price">Rs.4000</span>
               </div>
             </div>
-            <button class="button primary-button-pink mt-1">
-              <i class="fas fa-shopping-cart icon-white"></i>
+            <button class="button primary-button-pink mt-1 w-100">
+              <i class="fas fa-shopping-cart icon-white mr-1"></i>
               Add to cart
             </button>
           </div>
-       
+
           <div class="vertical-card-container">
             <div class="vertical-image-container">
               <img
                 class="vertical-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/600x600_54a11123-5968-49f9-a72b-169119620e75.jpg?v=1615192845"
-                alt="vertical-image"/>
-              <span class="badge bg-primary badge-trending">New</span>
+                alt="vertical-image"
+              />
+              <span class="badge bg-primary badge-trending text-xs">New</span>
             </div>
             <div class="vertical-card-text-container">
               <div class="vertical-card-content">
                 <div class="flex-row vertical-card-heading mb-1">
-                  <h3>Climbing harness</h3>
+                  <h3 class="text-xs">Climbing harness</h3>
                   <i class="fas fa-heart text-sm text-grey"></i>
                 </div>
                 <span class="discount-price font-semibold">Rs.3000</span>
                 <span class="original-price">Rs.4000</span>
               </div>
             </div>
-            <button class="button primary-button-pink mt-1">
-              <i class="fas fa-shopping-cart icon-white"></i>
+            <button class="button primary-button-pink mt-1 w-100">
+              <i class="fas fa-shopping-cart icon-white mr-1"></i>
               Add to cart
             </button>
           </div>
-       
         </div>
       </main>
     </div>
+    <script
+      src="https://kit.fontawesome.com/482acc5102.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

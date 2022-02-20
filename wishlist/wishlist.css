@@ -1,3 +1,11 @@
 .wishlist-heading{
     text-align: center;
 }
+.vertical-card-outer-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin:0 auto;
+   max-width: 900px;
+    width: 100%;
+}
