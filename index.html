@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    
+
     <link rel="stylesheet" href="/index.css" />
     <link rel="stylesheet" href="/common.css" />
     <link
@@ -48,7 +48,10 @@
         <div class="right-navbar">
           <ul class="nav-icons list-style-none">
             <li>
-              <a href="../authentication/signin/signin.html" class="flex-col nav-icon-link">
+              <a
+                href="../authentication/signin/signin.html"
+                class="flex-col nav-icon-link"
+              >
                 <span class="badge-icon">
                   <i class="fas fa-user icon-size"></i>
                 </span>
@@ -56,7 +59,10 @@
               </a>
             </li>
             <li>
-              <a href="../wishlist/wishlist.html" class="flex-col nav-icon-link wishlist-button">
+              <a
+                href="../wishlist/wishlist.html"
+                class="flex-col nav-icon-link wishlist-button"
+              >
                 <span class="badge-icon">
                   <i class="fas fa-heart"></i>
                   <span class="badge-count">10</span>
@@ -69,16 +75,6 @@
                 <span class="badge-icon">
                   <i class="fas fa-shopping-cart"></i>
                   <span class="badge-count">10</span>
-
-    
-          
-            
-    
-
-          
-    
-    
-  
                 </span>
                 <span class="nav-list-link">Cart</span>
               </a>
@@ -87,15 +83,16 @@
         </div>
         <!-- ************************ Navbar right ended *************** -->
       </nav>
-        <!-- *****************************************************NavBar ended***************************************** -->
- 
-      <!-- ***************************************************** Hero section started***************************************** -->     
-      
+      <!-- *****************************************************NavBar ended***************************************** -->
+
+      <!-- ***************************************************** Hero section started***************************************** -->
+
       <div class="main-container">
         <div class="hero-container component-image-square">
           <img
             src="https://preview.hasthemes.com/hopsop-v4/img/slider/slider-bg-2.jpg"
-          alt="hero-image"/>
+            alt="hero-image"
+          />
           <div class="hero-image-text-overlay">
             <p class="text-pink font-extrabold text-lg">
               HOP<span>SOP</span> COLLECTION 2022
@@ -114,12 +111,12 @@
         <!-- ***************************************Features started******************************************************** -->
         <div class="features-outer-container">
           <div class="space-4rem"></div>
-          
+
           <h2 class="heading text-lg my-1 py-1 font-extrabold">
             WHY <span class="text-pink">HOPSOP ??</span>
           </h2>
           <div class="space-4rem"></div>
-         
+
           <div class="features-container flex-row py-2 mx-2">
             <div class="justify-center align-center flex-col">
               <div class="feature-logo-container">
@@ -132,10 +129,13 @@
             </div>
             <div class="justify-center align-center">
               <div class="feature-logo-container">
-                <img src="/images/boostPerfomance.svg" alt="boostPerfomance-img" />
+                <img
+                  src="/images/boostPerfomance.svg"
+                  alt="boostPerfomance-img"
+                />
               </div>
               <div class="justify-center align-center flex-col">
-                <h2 class="text-xs" >Fast Delivery</h2>
+                <h2 class="text-xs">Fast Delivery</h2>
                 <p class="text-xs">Delivery within 5 days</p>
               </div>
             </div>
@@ -153,16 +153,20 @@
         <!-- ****************************************Feature ended******************************************* -->
         <!-- **************************************** Categories ****************************************** -->
         <div class="space-4rem"></div>
-        <h2 class="heading text-lg font-extrabold">SHOP BY <span class="text-pink">CATEGORY</span></h2>
+        <h2 class="heading text-lg font-extrabold">
+          SHOP BY <span class="text-pink">CATEGORY</span>
+        </h2>
         <div class="space-4rem"></div>
         <div class="flex-row justify-evenly flex-wrap gap-1 mx-3">
           <div class="vertical-card-container">
             <div class="vertical-image-container">
-              <img
-                class="vertical-image"
-                src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/670-600-1.jpg?v=1615192415"
-                alt="ice climbing equipment"
-              />
+              <div class="card-hover">
+                <img
+                  class="vertical-image hover-image"
+                  src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/670-600-1.jpg?v=1615192415"
+                  alt="ice climbing equipment"
+                />
+              </div>
               <span class="badge bg-primary badge-trending text-xs">Sale</span>
               <div class="flex-row justify-center">
                 <p class="text-xs font-bold">ICE CLIMBING EQUIPMENT</p>
@@ -170,12 +174,14 @@
             </div>
           </div>
           <div class="vertical-card-container">
-            <div class="vertical-image-container">
-              <img
-                class="vertical-image"
-                src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/670-600-2_37330c6b-6e74-429d-88dc-b6d26231fd35.jpg?v=1615192841"
-                alt="climbing rope"
-              />
+            <div class="card-hover">
+              <div class="vertical-image-container">
+                <img
+                  class="vertical-image hover-image"
+                  src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/670-600-2_37330c6b-6e74-429d-88dc-b6d26231fd35.jpg?v=1615192841"
+                  alt="climbing rope"
+                />
+              </div>
               <span class="badge bg-primary badge-trending text-xs">Sale</span>
               <div class="flex-row justify-center">
                 <p class="text-xs font-bold">CLIMBING ROPE</p>
@@ -183,12 +189,14 @@
             </div>
           </div>
           <div class="vertical-card-container">
+            <div class="card-hover">
             <div class="vertical-image-container">
               <img
-                class="vertical-image"
+                class="vertical-image hover-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/600x600_54a11123-5968-49f9-a72b-169119620e75.jpg?v=1615192845"
                 alt="harness"
               />
+            </div>
               <span class="badge bg-primary badge-trending text-xs">New</span>
               <div class="flex-row justify-center">
                 <p class="text-xs font-bold">CLIMBING HARNESS</p>
@@ -196,12 +204,14 @@
             </div>
           </div>
           <div class="vertical-card-container">
-            <div class="vertical-image-container">
+            <div class="card-hover">
+            <div class="vertical-image-container hover-image">
               <img
                 class="vertical-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/670-600-3.jpg?v=1615192284"
                 alt="quickdraws"
               />
+            </div>
               <span class="badge bg-primary badge-trending text-xs">Sale</span>
               <div class="flex-row justify-center">
                 <p class="text-xs font-bold">QUICKDRAWS</p>
@@ -212,16 +222,23 @@
         <!-- ***********************************Categories ended ************************************************ -->
         <!-- *********************************Our Products started*********************************************** -->
         <div class="space-4rem"></div>
-        <h2 class="heading text-lg font-extrabold">OUR <span class="text-pink">PRODUCTS</span></h2>
+        <h2 class="heading text-lg font-extrabold">
+          OUR <span class="text-pink">PRODUCTS</span>
+        </h2>
         <div class="space-4rem"></div>
         <div class="flex-row flex-wrap justify-evenly gap-1 mx-3">
           <div class="vertical-card-container">
+            <div class="card-hover">
             <div class="vertical-image-container">
               <img
-                class="vertical-image"
+                class="vertical-image hover-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/h24-600x600.png?v=1615134141"
-              alt="vertical-image"/>
-              <span class="badge bg-primary badge-trending text-xs">Trending</span>
+                alt="vertical-image"
+              />
+              <span class="badge bg-primary badge-trending text-xs"
+                >Trending</span
+              >
+            </div>
             </div>
             <div class="vertical-card-text-container">
               <div class="vertical-card-content">
@@ -233,35 +250,7 @@
                 <span class="original-price">Rs.4000</span>
               </div>
             </div>
-            <button class="button primary-button-pink w-100 mt-1 ">
-              <i class="fas fa-shopping-cart icon-white mr-1"></i>
-              Add to cart
-            </button>
-            <button class="button secondary-button-light w-100">
-              <i class="far fa-heart mr-1"></i>
-              Add to wishlist
-            </button>
-          </div>
-          <div class="vertical-card-container">
-            <div class="vertical-image-container">
-              <img
-                class="vertical-image"
-                src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/shoe-15.jpg?v=1615348374"
-                alt="vertical-image"/>
-              <span class="badge bg-primary badge-trending text-xs">New</span>
-            </div>
-            <div class="vertical-card-text-container">
-              <div class="vertical-card-content">
-                <div class="flex-row vertical-card-heading">
-                  <h3 class="text-xs">Evolv Geshido Lace Shoes</h3>
-                  <i class="fas fa-heart-circle text-sm"></i>
-                </div>
-                <h3></h3>
-                <span class="discount-price font-semibold">Rs.3000</span>
-                <span class="original-price">Rs.4000</span>
-              </div>
-            </div>
-            <button class="button primary-button-pink  w-100 mt-1">
+            <button class="button primary-button-pink w-100 mt-1">
               <i class="fas fa-shopping-cart icon-white mr-1"></i>
               Add to cart
             </button>
@@ -274,12 +263,43 @@
             <div class="vertical-image-container">
               <div class="card-hover">
               <img
-                class="vertical-image"
-                src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/600x600-31.jpg?v=1615344031"
-                alt="vertical-image"/>
-              </div>
+                class="vertical-image hover-image"
+                src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/shoe-15.jpg?v=1615348374"
+                alt="vertical-image"
+              />
               <span class="badge bg-primary badge-trending text-xs">New</span>
+            </div>
+            </div>
+            <div class="vertical-card-text-container">
+              <div class="vertical-card-content">
+                <div class="flex-row vertical-card-heading">
+                  <h3 class="text-xs">Evolv Geshido Lace Shoes</h3>
+                  <i class="fas fa-heart-circle text-sm"></i>
+                </div>
+                <span class="discount-price font-semibold">Rs.3000</span>
+                <span class="original-price">Rs.4000</span>
+              </div>
+            </div>
+            <button class="button primary-button-pink w-100 mt-1">
+              <i class="fas fa-shopping-cart icon-white mr-1"></i>
+              Add to cart
+            </button>
+            <button class="button secondary-button-light w-100">
+              <i class="far fa-heart mr-1"></i>
+              Add to wishlist
+            </button>
+          </div>
+          <div class="vertical-card-container">
+            <div class="vertical-image-container">
+              <div class="card-hover">
+                <img
+                  class="vertical-image hover-image"
+                  src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/600x600-31.jpg?v=1615344031"
+                  alt="vertical-image"
+                />
            
+              <span class="badge bg-primary badge-trending text-xs">New</span>
+            </div>
             </div>
             <div class="vertical-card-text-container">
               <div class="vertical-card-content">
@@ -301,12 +321,15 @@
             </button>
           </div>
           <div class="vertical-card-container">
+            <div class="card-hover">
             <div class="vertical-image-container">
               <img
-                class="vertical-image"
+                class="vertical-image hover-image"
                 src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/2-6.png?v=1614911759"
-                alt="vertical-image" />
-              <span class="badge bg-primary badge-trending text-xs">New</span>
+                alt="vertical-image"
+              />
+              <span
+               class="badge bg-primary badge-trending text-xs">New</span>
             </div>
             <div class="vertical-card-text-container">
               <div class="vertical-card-content">
@@ -331,10 +354,11 @@
         <!-- ***************************************** Products Ended ************************************** -->
         <!-- ***************************************** Brands started ***************************************** -->
         <div class="space-4rem"></div>
-        <h2 class="heading text-lg font-extrabold">FEATURED <span class="text-pink">BRANDS</span></h2>
+        <h2 class="heading text-lg font-extrabold">
+          FEATURED <span class="text-pink">BRANDS</span>
+        </h2>
         <div class="space-3rem"></div>
         <div class="flex-row justify-around flex-wrap gap-1 mx-3">
-        
           <div class="component-image-square brand">
             <img
               src="https://cdn.shopify.com/s/files/1/0068/8481/9003/files/abo-02.png?v=1635838337"
@@ -379,21 +403,30 @@
           <li class="footer-item list-style-none">
             <a href="https://github.com/Priya-Patel31">
               <span class="footer-icon">
-                <i class="fa fa-github icon-white text-sm" aria-hidden="true"></i>
+                <i
+                  class="fa fa-github icon-white text-sm"
+                  aria-hidden="true"
+                ></i>
               </span>
             </a>
           </li>
           <li class="footer-item list-style-none">
             <a href="https://github.com/Priya-Patel31">
               <span class="footer-icon">
-                <i class="fa fa-twitter icon-white text-sm" aria-hidden="true"></i>
+                <i
+                  class="fa fa-twitter icon-white text-sm"
+                  aria-hidden="true"
+                ></i>
               </span>
             </a>
           </li>
           <li class="footer-item list-style-none">
             <a href="https://www.linkedin.com/in/priya-patel-201b33202">
               <span class="footer-icon">
-                <i class="fa fa-linkedin icon-white text-sm" aria-hidden="true"></i>
+                <i
+                  class="fa fa-linkedin icon-white text-sm"
+                  aria-hidden="true"
+                ></i>
               </span>
             </a>
           </li>

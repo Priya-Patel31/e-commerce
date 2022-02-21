@@ -1,4 +1,4 @@
-features-container{
+.features-container{
     justify-content: space-evenly;
     background-color:var(--lighter-white-color);
     border-radius:1rem;
@@ -19,12 +19,12 @@ features-container{
     display: block;
 }
 .brand{
-    width:200px;
-    height:100px;
+    width:12.5rem;
+    height:6.25rem
 }
 .brand img{
-    width:150px;
-    height:100px;
+    width:9.37rem;
+    height:6.25rem;
 }
 .card-hover{
     overflow: hidden;

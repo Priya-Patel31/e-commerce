@@ -8,11 +8,11 @@
   position: fixed;
   overflow-y: scroll;
   height: 100vh;
-  width:250px;
+  width:15.62rem;
 }
 .products-container {
   display: grid;
-  grid-template-rows: 70px auto;
+  grid-template-rows: 4.37rem auto;
 }
 .nav-container {
   grid-row-start: 1;
@@ -20,7 +20,7 @@
 }
 .main-content-container {
   display: grid;
-  grid-template-columns: 250px auto;
+  grid-template-columns:15.62rem auto;
   grid-row-start: 2;
   grid-row-end: 3;
 }

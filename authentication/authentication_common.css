@@ -10,20 +10,20 @@
 }
 .blob-top-left {
   position: fixed;
-  top: -100px;
+  top: -6.25rem;
   left: -120px;
 }
 .blob-bottom-right {
   position: fixed;
-  bottom: -100px;
-  right: -100px;
+  bottom: -6.25rem;
+  right: -6.25rem;
   transform: rotate(180deg);
 }
 .form-heading {
   color: var(--primary-color);
 }
 .authentication-details-container {
-  max-width: 850px;
+  max-width: 53.12rem;
   width: 100%;
   border-radius: 1rem;
   background-color: var(--light-color);
@@ -65,17 +65,11 @@
   text-decoration: underline;
   color: var(--primary-color);
 }
-.password-eye-icon{
+.password-eye-icon,.email-icon{
     position: absolute;
     top:50%;
     right:8px;
 }
-.email-icon{
-    position: absolute; 
-    top:50%;
-    right:8px;
-}
-
 
 
 @media only screen and (max-width: 550px) {
@@ -87,10 +81,10 @@
   }
   .authentication-image-container {
     width: 100%;
-    max-width: 300px;
+    max-width: 18.75rem;
   }
   .form-components-container {
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
   }
 }
