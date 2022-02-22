@@ -1,3 +1,7 @@
+.wishlist-container{
+    background-color:var(--bg-color);
+    padding-bottom: 2rem;
+}
 .wishlist-heading{
     text-align: center;
 }
@@ -8,4 +12,7 @@
     margin:0 auto;
    max-width: 56.25rem;
     width: 100%;
+}
+.vertical-card-container{
+    box-shadow: var(--shadow1);
 }

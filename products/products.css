@@ -13,6 +13,10 @@
 .products-container {
   display: grid;
   grid-template-rows: 4.37rem auto;
+  background-color:var(--bg-color);
+}
+.vertical-card-container{
+    box-shadow: var(--shadow1);
 }
 .nav-container {
   grid-row-start: 1;
