@@ -15,6 +15,7 @@
   <body>
     <div class="container">
       <!-- *********************************************** NavBar started ******************************************************** -->
+     
       <nav class="nav-container">
         <!-- ************************ Left navBar*************** -->
         <div class="left-navbar">
@@ -32,30 +33,45 @@
               <a href="/">Home</a>
             </li>
             <li class="navbar-link-list-item">
-              <a href="../products/products.html">Shop Now</a>
+              <a href="/products/products.html">Shop</a>
             </li>
           </ul>
         </div>
+
         <div class="search-bar-container">
           <button>
             <i class="fas fa-search text-xs"></i>
           </button>
-          <input type="search" placeholder="Search" class="search-bar text-xs" />
+          <input
+            type="search"
+            placeholder="Search"
+            class="search-bar text-xs"
+          />
         </div>
+
         <!-- ******************** NavBar left ended********************** -->
         <!-- ******************** Navbar right started******************** -->
         <div class="right-navbar">
           <ul class="nav-icons list-style-none">
             <li>
-              <a
-                href="../authentication/signin/signin.html"
-                class="flex-col nav-icon-link"
+              <button
+                class="flex-col nav-icon-link dropdown"
               >
-                <span class="badge-icon">
-                  <i class="fas fa-user text-xs"></i>
-                </span>
-                <span class="nav-list-link">Login</span>
-              </a>
+                <div class="dropbtn flex-col">
+                  <span class="badge-icon">
+                    <i class="fas fa-user text-xs icon-size"></i>
+                  </span>
+                  <span class="nav-list-link">User</span>
+                </div>
+                <div class="dropdown-content">
+                  <a href="/authentication/signin/signin.html" class="text-xs"
+                    >Login</a
+                  >
+                  <a href="/profile_page/profile_page.html" class="text-xs"
+                    >Profile</a
+                  >
+                </div>
+              </button>
             </li>
             <li>
               <a
@@ -63,7 +79,7 @@
                 class="flex-col nav-icon-link wishlist-button"
               >
                 <span class="badge-icon">
-                  <i class="fas fa-heart text-xs"></i>
+                  <i class="fas fa-heart text-xs icon-size"></i>
                   <span class="badge-count">10</span>
                 </span>
                 <span class="nav-list-link">Wishlist</span>
@@ -72,7 +88,7 @@
             <li>
               <a href="../carts/carts.html" class="flex-col nav-icon-link">
                 <span class="badge-icon">
-                  <i class="fas fa-shopping-cart text-xs"></i>
+                  <i class="fas fa-shopping-cart text-xs icon-size"></i>
                   <span class="badge-count">10</span>
                 </span>
                 <span class="nav-list-link">Cart</span>
@@ -224,7 +240,10 @@
         </h2>
         <div class="space-4rem"></div>
         <div class="flex-row flex-wrap justify-evenly gap-1 mx-3">
-          <a class="vertical-card-container" href="/single_product/single_product.html">
+          <a
+            class="vertical-card-container"
+            href="/single_product/single_product.html"
+          >
             <div class="card-hover">
               <div class="vertical-image-container">
                 <img
@@ -256,7 +275,10 @@
               Add to wishlist
             </button>
           </a>
-          <a class="vertical-card-container" href="/single_product/single_product.html">
+          <a
+            class="vertical-card-container"
+            href="/single_product/single_product.html"
+          >
             <div class="vertical-image-container">
               <div class="card-hover">
                 <img
@@ -286,7 +308,10 @@
               Add to wishlist
             </button>
           </a>
-          <a class="vertical-card-container" href="/single_product/single_product.html">
+          <a
+            class="vertical-card-container"
+            href="/single_product/single_product.html"
+          >
             <div class="vertical-image-container">
               <div class="card-hover">
                 <img
@@ -317,7 +342,10 @@
               Add to wishlist
             </button>
           </a>
-          <a class="vertical-card-container" href="/single_product/single_product.html">
+          <a
+            class="vertical-card-container"
+            href="/single_product/single_product.html"
+          >
             <div class="card-hover">
               <div class="vertical-image-container">
                 <img
@@ -346,8 +374,8 @@
               <i class="far fa-heart mr-1"></i>
               Add to wishlist
             </button>
-          </div>
-        </a>
+          </a>
+        </div>
         <!-- ***************************************** Products Ended ************************************** -->
         <!-- ***************************************** Brands started ***************************************** -->
         <div class="space-4rem"></div>

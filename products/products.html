@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
-    <link rel="stylesheet" href="/common.css" />
+   
     <link rel="stylesheet" href="/index.css" />
     <link
       rel="stylesheet"
       href="https://clean-u-i.netlify.app/component/component.css"
     />
-
+    <link rel="stylesheet" href="/common.css" />
     <link rel="stylesheet" href="./products.css" />
   </head>
 
@@ -31,16 +31,16 @@
               alt="logo"
             />
           </div>
-
           <ul class="navbar-links list-style-none">
             <li class="navbar-link-list-item">
-              <a href="../index.html">Home</a>
+              <a href="/index.html">Home</a>
             </li>
             <li class="navbar-link-list-item">
-              <a href="/">Shop Now</a>
+              <a href="/">Shop</a>
             </li>
           </ul>
         </div>
+
         <div class="search-bar-container">
           <button>
             <i class="fas fa-search text-xs"></i>
@@ -53,48 +53,55 @@
         </div>
 
         <!-- ******************** NavBar left ended********************** -->
-
         <!-- ******************** Navbar right started******************** -->
-
         <div class="right-navbar">
           <ul class="nav-icons list-style-none">
             <li>
-              <a href="/authentication/signin/signin.html">
-                <button class="flex-col nav-icon-link">
+              <button
+                class="flex-col nav-icon-link dropdown"
+              >
+                <div class="dropbtn flex-col">
                   <span class="badge-icon">
-                    <i class="fas fa-user icon-size"></i>
+                    <i class="fas fa-user text-xs icon-size"></i>
                   </span>
-                  <span class="nav-list-link">Login</span>
-                </button>
+                  <span class="nav-list-link">User</span>
+                </div>
+                <div class="dropdown-content">
+                  <a href="/authentication/signin/signin.html" class="text-xs"
+                    >Login</a
+                  >
+                  <a href="/profile_page/profile_page.html" class="text-xs"
+                    >Profile</a
+                  >
+                </div>
+              </button>
+            </li>
+            <li>
+              <a
+                href="/wishlist/wishlist.html"
+                class="flex-col nav-icon-link wishlist-button"
+              >
+                <span class="badge-icon">
+                  <i class="fas fa-heart text-xs icon-size"></i>
+                  <span class="badge-count">10</span>
+                </span>
+                <span class="nav-list-link">Wishlist</span>
               </a>
             </li>
             <li>
-              <a href="/wishlist/wishlist.html"
-                ><button class="flex-col nav-icon-link wishlist-button">
-                  <span class="badge-icon">
-                    <i class="fas fa-heart"></i>
-                    <span class="badge-count">10</span>
-                  </span>
-                  <span class="nav-list-link">Wishlist</span>
-                </button>
-              </a>
-            </li>
-            <li>
-              <a href="/carts/carts.html">
-                <button class="flex-col nav-icon-link">
-                  <span class="badge-icon">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span class="badge-count">10</span>
-                  </span>
-                  <span class="nav-list-link">Cart</span>
-                </button>
+              <a href="/carts/carts.html" class="flex-col nav-icon-link">
+                <span class="badge-icon">
+                  <i class="fas fa-shopping-cart text-xs icon-size"></i>
+                  <span class="badge-count">10</span>
+                </span>
+                <span class="nav-list-link">Cart</span>
               </a>
             </li>
           </ul>
         </div>
-        <!-- ******************navbar right ended**************** -->
+        <!-- ************************ Navbar right ended *************** -->
       </nav>
-      <!-- 
+    <!-- 
       ********************************** Navbar ended ************************************ -->
 
       <!-- **********************************Main section started ****************************** -->
