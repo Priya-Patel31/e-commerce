@@ -1,0 +1,23 @@
+.addresses {
+  max-width: 50rem;
+  width: 100%;
+  border: 2px solid var(--dark-pink);
+  border-radius: 0.4rem;
+  margin: 2rem;
+}
+.addresses-main-container {
+  margin: 3rem;
+}
+.addresses-info-container {
+  margin: 2rem;
+  border-bottom: 2px solid var(--light-grey);
+}
+.address-info {
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+@media only screen and (max-width: 550px) {
+  .addresses-main-container {
+    margin: 2rem 0.5rem;
+  }
+}

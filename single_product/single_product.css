@@ -3,6 +3,11 @@
     height:26.2rem;
     margin: 0 auto;
     transform: translate(0%,20%);
+    box-shadow:var(--shadow1);
+}
+.single-product-cards-container{
+    height:100vh;
+    background-color:var(--bg-color);
 }
 .card-horizontal-text-container {
     flex: 0.5;
