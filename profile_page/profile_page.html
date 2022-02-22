@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="/common.css" />
+    <link
+      rel="stylesheet"
+      href="https://clean-u-i.netlify.app/component/component.css"
+    />
+
+    <link rel="stylesheet" href="profile_page.css" />
+  </head>
+  <body>
+    <!-- *********************************************** NavBar started ******************************************************** -->
+    <nav class="nav-container">
+      <!-- ************************ Left navBar*************** -->
+      <div class="left-navbar">
+        <div class="hamburger-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="logo">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0020/2496/4194/files/logo.png?v=1534487210"
+            alt="logo"
+          />
+        </div>
+        <ul class="navbar-links list-style-none">
+          <li class="navbar-link-list-item">
+            <a href="/">Home</a>
+          </li>
+          <li class="navbar-link-list-item">
+            <a href="../products/products.html">Shop Now</a>
+          </li>
+        </ul>
+      </div>
+      <div class="search-bar-container">
+        <button type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+        <input type="search" placeholder="Search" class="search-bar" />
+      </div>
+      <!-- ******************** NavBar left ended********************** -->
+      <!-- ******************** Navbar right started******************** -->
+      <div class="right-navbar">
+        <ul class="nav-icons list-style-none">
+          <li>
+            <a
+              href="../authentication/signin/signin.html"
+              class="flex-col nav-icon-link"
+            >
+              <span class="badge-icon">
+                <i class="fas fa-user icon-size"></i>
+              </span>
+              <span class="nav-list-link">Login</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../wishlist/wishlist.html"
+              class="flex-col nav-icon-link wishlist-button"
+            >
+              <span class="badge-icon">
+                <i class="fas fa-heart"></i>
+                <span class="badge-count">10</span>
+              </span>
+              <span class="nav-list-link">Wishlist</span>
+            </a>
+          </li>
+          <li>
+            <a href="../carts/carts.html" class="flex-col nav-icon-link">
+              <span class="badge-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="badge-count">10</span>
+              </span>
+              <span class="nav-list-link">Cart</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- ************************ Navbar right ended *************** -->
+    </nav>
+    <!-- *****************************************************NavBar ended***************************************** -->
+    <main class="profile-main-container">
+      <div class="profile">
+        <div class="profile-buttons-container">
+          <a class="button primary-button-pink" href="/">Profile</a>
+          <a class="button primary-button-white" href="/address_page/address_page.html">Addresses</a>
+          <a class="button primary-button-white">Orders</a>
+          <a class="button primary-button-white">Settings</a>
+        </div>
+        <div class="profile-content-container">
+          <div class="user-profile-container">
+            <div class="component-image-rounded">
+              <img
+                loading="lazy"
+                class="avatar xl-avatar"
+                src="../images/image-avatar1.jpg"
+                alt="avatar-image1"
+              />
+            </div>
+          </div>
+          <div class="user-details-container">
+            <div class="flex-row justify-between m-1">
+              <p class="text-xs-sm font-semibold">Name</p>
+              <p class="text-xs-sm">Priya Patel</p> 
+            </div>
+            <div class="flex-row justify-between m-1">
+              <p class="text-xs-sm font-semibold">Email</p>
+              <p class="text-xs-sm">Priya@gmail.com</p>
+            </div>
+            <div class="flex-row justify-between m-1">
+              <p class="text-xs-sm font-semibold">Phone</p>
+              <p class="text-xs-sm">*******</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ************************************Footer Started****************************** -->
+    <footer class="footer-container py-2 flex-col">
+      <div class="footer-text text-sm icon-white">
+        Made with ❤ by Priya Patel
+      </div>
+
+      <ul class="footer-items flex-row">
+        <li class="footer-item list-style-none">
+          <a href="https://github.com/Priya-Patel31">
+            <span class="footer-icon">
+              <i class="fa fa-github icon-white text-sm" aria-hidden="true"></i>
+            </span>
+          </a>
+        </li>
+        <li class="footer-item list-style-none">
+          <a href="https://github.com/Priya-Patel31">
+            <span class="footer-icon">
+              <i class="fa fa-twitter icon-white text-sm" aria-hidden="true"></i>
+            </span>
+          </a>
+        </li>
+        <li class="footer-item list-style-none">
+          <a href="https://www.linkedin.com/in/priya-patel-201b33202">
+            <span class="footer-icon">
+              <i class="fa fa-linkedin icon-white text-sm" aria-hidden="true"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <div class="icon-white text-xs">&copy; Copyright 2022</div>
+    </footer>
+    <!-- ****************************Footer ended ************************************************ -->
+  
+    <script
+      src="https://kit.fontawesome.com/482acc5102.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
