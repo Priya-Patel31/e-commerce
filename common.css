@@ -193,6 +193,9 @@ a:hover{
   .hamburger-icon{
       display: none;
   }
+  .text-xs-sm{
+    font-size: 1.3rem;
+  }
 
 /* ***************************************** Footer CSS ****************************************** */
 
