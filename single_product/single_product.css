@@ -1,0 +1,52 @@
+.card-horizontal{ 
+    max-width: 50rem;
+    height:26.2rem;
+    margin: 0 auto;
+    transform: translate(0%,20%);
+}
+.card-horizontal-text-container {
+    flex: 0.5;
+    padding: 3%;
+}
+.card-horizontal-image-container{
+    max-width: 50%;
+}
+.card-horizontal-image-container img {
+    object-fit: fill;
+}
+.card-horizontal-sub-heading{
+    font-size: 1.1rem;
+    color:var(--light-grey);
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.badge-rating-container{
+    height:fit-content;
+    margin: 0.5rem 0;
+}
+.price{
+    display: inline-block;
+}
+
+.quantity{
+    font-size: 1.5rem
+}
+@media  only screen and (max-width:800px){
+    .card-horizontal{
+        flex-direction: column;
+        max-width: 25rem;
+        height: fit-content;
+        margin:0 auto;
+        padding: 1%;
+        transform:translate(0%,10%);
+     
+    }
+ 
+    .card-horizontal-image-container {
+        max-width: 100%;
+    }
+   .card-horizontal-image-container img{
+       max-height: 18.75rem;
+   }
+  
+}
