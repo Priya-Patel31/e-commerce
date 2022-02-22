@@ -1,6 +1,6 @@
 .carts-container{
   background-color:var(--bg-color);
-  height:100%;
+  height:100vh;
 }
 .cart-items-container {
   max-width: 59.3rem;
